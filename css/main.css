@@ -1,0 +1,84 @@
+/* Inserta tu CSS aqui */
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: Oswald;
+}
+/*header*/
+
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+header nav a {
+	color: black;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+.fondo {
+	background-image: url(../images/background1.jpg);
+	height: 480px;
+	width: 100%;
+}
+.logo {
+	position: relative;
+	top: 200px;
+	text-align: center;
+	color: purple;
+}
+
+/*secciones*/
+
+.second {
+	background-image: url(../images/tile1.png);
+	background-repeat: repeat;
+	padding: 20px;
+}
+.profile {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.parrafo {
+	padding-left: 20px;
+}
+
+.tercer {
+	padding: 20px;
+}
+
+.imagen {
+	border-radius: 50%;
+	border: 3px solid purple;
+	padding: 5px;
+	
+}
+
+.col3 {
+	margin-left: 20px;
+}
+
+.texto {
+	color: #9207E3;
+	text-align: center;
+	padding: 20px;
+}
+
+/*footer*/
+
+footer {
+	background-image: url(../images/tile2.png);
+	background-repeat: repeat;
+		
+}
+
+.onerow {
+	text-align: center;
+}
+
+.twitter {
+	padding: 10px;
+}
